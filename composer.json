@@ -1,0 +1,27 @@
+{
+	"name": "tabsl/tabslsets",
+	"version": "1.0.0",
+	"description": "Artikel-Sets aus Einzelartikeln mit Bestandsaktualisierung.",
+	"type": "oxideshop-module",
+	"license": [
+		"proprietary"
+	],
+	"homepage": "https://oxid-module.eu",
+	"author": [{
+		"name": "Tobias Merkl",
+		"homepage": "https://oxid-module.eu"
+	}],
+	"support": {
+		"email": "support@oxid-module.eu"
+	},
+	"autoload": {
+		"psr-4": {
+			"Tabsl\\Sets\\": "../../../source/modules/tabsl/tabslSets"
+		}
+	},
+	"extra": {
+		"oxideshop": {
+			"target-directory": "tabsl/tabslSets"
+		}
+	}
+}
